@@ -26,7 +26,7 @@ def clean_text(text, pref_case="lower", rm_all_punc=True, punctuation=None) -> l
     Examples
     --------
     >>> clean_text("Hello, it is so lovely to meet you today.")
-    "hello it is so lovely to meet yoy today"
+    "hello it is so lovely to meet you today"
 
     >>> clean_text("Hello, it is so lovely to meet you today.", pref_case="upper", rm_all_punc=False, punctuation=[",", "!"])
     "HELLO IT IS SO LOVELY TO MEET YOU TODAY."
